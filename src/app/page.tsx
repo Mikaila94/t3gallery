@@ -7,7 +7,7 @@ const mockFileKeys = [
   "pt1xwxr3Ck9jh6HZLm0BG1R7DFmHkO34YTioq9ZWrNM8Kc6A",
 ];
 
-export const mockImages = mockFileKeys.map((fileKey, index) => ({
+const mockImages = mockFileKeys.map((fileKey, index) => ({
   id: index + 1,
   url: `https://utfs.io/f/${fileKey}`,
 }));
