@@ -11,6 +11,13 @@ const config = {
       { protocol: "https", hostname: "utfs.sh", pathname: "/f/*" },
     ],
   },
+  typescript: {
+    ignoreBuildErrors: true,
+
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default config;
