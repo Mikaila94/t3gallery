@@ -2,6 +2,8 @@ import { db } from "~/server/db";
 
 const APPID = "2n2oidugi5";
 
+export const dynamic = 'force-dynamic';
+
 const mockFileKeys = [
   "pt1xwxr3Ck9j3tnuPTORb6tMQpJXVfjZU8gHASLIoaDkE9On",
   "pt1xwxr3Ck9jhk7F6D0BG1R7DFmHkO34YTioq9ZWrNM8Kc6A",
